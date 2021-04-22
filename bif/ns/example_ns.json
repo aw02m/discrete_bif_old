@@ -1,0 +1,48 @@
+{
+    "_comment": "This is a sample setting file",
+    "xrange": [
+        -3.0,
+        3
+    ],
+    "yrange": [
+        -3.0,
+        3.0
+    ],
+    "alpha": 0.25,
+    "break": 100,
+    "x0": [
+        0.8785057819517504,
+        1.8691612381952196
+    ],
+    "fixed": [
+        0.8816830604790589,
+        1.8759214052745954
+    ],
+    "params": [
+        -5.3192999999999042,
+        1.02,
+        1.04,
+        0.46999999999999953,
+        3
+    ],
+    "dparams": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        1
+    ],
+    "period": 1,
+    "inc_param": 0,
+    "var_param": 3,
+    "delta_inc": 0.001,
+    "inc_iter": 10000,
+    "max_iter": 200,
+    "dif_strip": 1e-08,
+    "eps": 1e-08,
+    "explode": 1000,
+    "func": [
+        "data.dict['params'][3] * x[1]",
+        "data.dict['params'][0] * x[0]**data.dict['params'][4] * (x[0]**2 - data.dict['params'][1]**2) + data.dict['params'][2] * x[0]"
+    ]
+}
